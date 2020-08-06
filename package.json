@@ -1,0 +1,16 @@
+{
+  "name": "runeterra-map",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "prettier": "^2.0.5",
+    "vite": "^1.0.0-rc.1"
+  }
+}
