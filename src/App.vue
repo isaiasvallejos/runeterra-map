@@ -1,10 +1,15 @@
 <template>
-  <img src="/assets/icon.png" />
-  Runeterra RPG Map
+  <router-view v-slot="{ Component }">
+    <keep-alive>
+      <component :is="Component" />
+    </keep-alive>
+  </router-view>
 </template>
 
 <script>
-export default {
+import { defineComponent } from 'vue'
+
+export default defineComponent({
   name: 'App'
-}
+})
 </script>
