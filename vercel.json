@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "routes": [
-    { "src": "/create", "dest": "/index.html/#/create" },
-    { "src": "/board/(?<id>[^/]+)", "dest": "/index.html/#/board/$id" }
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
