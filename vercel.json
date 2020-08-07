@@ -3,6 +3,9 @@
   "routes": [
     { "handle": "filesystem" },
     { "src": "/br/.*", "dest": "/index.html" },
-    { "src": "/en/.*", "dest": "/en_index.html" }
+    { "src": "/en/.*", "dest": "/en_index.html" },
+    { "src": "/br", "dest": "/index.html" },
+    { "src": "/en", "dest": "/en_index.html" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
