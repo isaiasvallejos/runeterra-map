@@ -8,16 +8,17 @@ export const router = createRouter({
   history: routerHistory,
   strict: true,
   routes: [
-    { path: '/', redirect: '/create' },
+    { path: '/', redirect: '/br/create' },
     {
-      path: '/create',
+      path: '/:language/create',
       component: Create
     },
     {
-      path: '/board/:id',
+      path: '/:language/board/:id',
       component: Board,
       props: true
-    }
+    },
+    { path: '/:catchAll(.*)', redirect: '/' }
   ]
 })
 
