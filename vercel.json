@@ -2,6 +2,7 @@
   "version": 2,
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/index.html" }
+    { "src": "/br/.*", "dest": "/index.html" },
+    { "src": "/en/.*", "dest": "/en_index.html" }
   ]
 }
